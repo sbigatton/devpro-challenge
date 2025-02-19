@@ -1,3 +1,5 @@
+namespace DevProChallenge.Helpers;
+
 public class Logger
 {
     public static void LogMessage(string filePath, string message, string logType)
