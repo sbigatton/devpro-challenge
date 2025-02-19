@@ -10,7 +10,7 @@ public class Logger
         {        
             using var writer = File.AppendText(filePath);
             lock(writer) {
-                writer.WriteLine(logMessage);
+                writer.Write(logMessage);
             }   
         }
         catch (Exception ex)
